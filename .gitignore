@@ -1,0 +1,6 @@
+.idea
+.gradle
+*.xml
+build/
+*.jar
+*.properties
