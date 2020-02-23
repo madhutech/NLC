@@ -1,2 +1,2 @@
 # NLC
-A basic natural language calculator
+A natural language calculator
