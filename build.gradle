@@ -3,7 +3,7 @@ plugins {
     id 'java'
 }
 
-group 'com.ncr.homework'
+group 'com.nlc.cal'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
@@ -15,9 +15,17 @@ repositories {
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.4.18'
     testCompile 'org.spockframework:spock-core:1.1-groovy-2.4-rc-2'
-
 }
 
 test {
     testLogging.showStandardStreams = true
+}
+
+jar {
+    manifest {
+        attributes(
+                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Main-Class': 'com.nlc.Main'
+        )
+    }
 }
