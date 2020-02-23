@@ -26,7 +26,7 @@ import static com.ncr.Operation.TIMES
 class CalculateTest extends Specification {
 
     @Unroll
-    def '#operation #inputOperand1 & #inputOperand2 is #expectedOutput'() {
+    def '#operation #inputOperand1 and #inputOperand2 is #expectedOutput'() {
 
         when:
         double actualOutput = roundToTwoDecimal(calculate(operation, inputOperand1, inputOperand2))
