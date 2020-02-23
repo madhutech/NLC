@@ -1,27 +1,27 @@
-package com.ncr.test
+package com.nlc.test
 
 import spock.lang.Specification
 import spock.lang.Unroll
 
-import static com.ncr.Calculate.parseInputString
-import static com.ncr.InputValue.FIVE
-import static com.ncr.InputValue.FOUR
-import static com.ncr.InputValue.NINE
-import static com.ncr.InputValue.TEN
-import static com.ncr.InputValue.THREE
-import static com.ncr.InputValue.ZERO
-import static com.ncr.InputValue.TWO
-import static com.ncr.Operation.ADD
+import static com.nlc.cal.Calculate.parseInputString
+import static com.nlc.cal.InputValue.FIVE
+import static com.nlc.cal.InputValue.FOUR
+import static com.nlc.cal.InputValue.NINE
+import static com.nlc.cal.InputValue.TEN
+import static com.nlc.cal.InputValue.THREE
+import static com.nlc.cal.InputValue.ZERO
+import static com.nlc.cal.InputValue.TWO
+import static com.nlc.cal.Operation.ADD
 
-import static com.ncr.Calculate.calculate
-import static com.ncr.Operation.DIVIDE
-import static com.ncr.Operation.LESS
-import static com.ncr.Operation.MINUS
-import static com.ncr.Operation.MULTIPLY
-import static com.ncr.Operation.OVER
-import static com.ncr.Operation.PLUS
-import static com.ncr.Operation.SUBTRACT
-import static com.ncr.Operation.TIMES
+import static com.nlc.cal.Calculate.calculate
+import static com.nlc.cal.Operation.DIVIDE
+import static com.nlc.cal.Operation.LESS
+import static com.nlc.cal.Operation.MINUS
+import static com.nlc.cal.Operation.MULTIPLY
+import static com.nlc.cal.Operation.OVER
+import static com.nlc.cal.Operation.PLUS
+import static com.nlc.cal.Operation.SUBTRACT
+import static com.nlc.cal.Operation.TIMES
 
 class CalculateTest extends Specification {
 

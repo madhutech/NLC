@@ -1,11 +1,33 @@
-package com.ncr;
+package com.nlc.cal;
 
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import static com.ncr.InputValue.*;
-import static com.ncr.Operation.*;
+import static com.nlc.cal.InputValue.ZERO;
+import static com.nlc.cal.InputValue.ONE;
+import static com.nlc.cal.InputValue.TWO;
+import static com.nlc.cal.InputValue.THREE;
+import static com.nlc.cal.InputValue.FOUR;
+import static com.nlc.cal.InputValue.FIVE;
+import static com.nlc.cal.InputValue.SIX;
+import static com.nlc.cal.InputValue.SEVEN;
+import static com.nlc.cal.InputValue.EIGHT;
+import static com.nlc.cal.InputValue.NINE;
+import static com.nlc.cal.InputValue.TEN;
+
+import static com.nlc.cal.Operation.ADD;
+import static com.nlc.cal.Operation.PLUS;
+
+import static com.nlc.cal.Operation.SUBTRACT;
+import static com.nlc.cal.Operation.MINUS;
+import static com.nlc.cal.Operation.LESS;
+
+import static com.nlc.cal.Operation.MULTIPLY;
+import static com.nlc.cal.Operation.OVER;
+import static com.nlc.cal.Operation.TIMES;
+
+import static com.nlc.cal.Operation.DIVIDE;
 
 public class Calculate {
 

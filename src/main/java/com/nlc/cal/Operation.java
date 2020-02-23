@@ -1,4 +1,4 @@
-package com.ncr;
+package com.nlc.cal;
 
 public enum Operation {
     ADD ("ADD"),PLUS ("PLUS"),
