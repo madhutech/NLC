@@ -1,6 +1,5 @@
 package com.ncr.test
 
-import com.ncr.Operation
 import spock.lang.Specification
 import spock.lang.Unroll
 
@@ -34,6 +33,7 @@ class CalculateTest extends Specification {
 
         then:
         actualOutput == expectedOutput
+        print("result = $actualOutput")
 
         where:
         operation | inputOperand1 | inputOperand2 || expectedOutput
@@ -66,6 +66,7 @@ class CalculateTest extends Specification {
 
         then:
         actualOutput == expectedOutput
+        print("result = $actualOutput")
 
         where:
         inputString                                        || expectedOutput
